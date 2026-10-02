@@ -1,3 +1,5 @@
+"""解析和管理配置"""
+
 from dataclasses import dataclass
 from pathlib import Path
 
