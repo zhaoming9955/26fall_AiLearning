@@ -1,0 +1,14 @@
+# 文件作用：排除本项目的本地环境、下载数据和运行产物，仅同步源码与学习文档。
+
+# Python 缓存与项目内虚拟环境。
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# 可重新下载的数据与可重新生成的训练产物。
+data/
+checkpoints/
+logs/
+outputs/
