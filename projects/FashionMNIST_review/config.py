@@ -1,3 +1,8 @@
+""" 
+集中定义训练参数，并提供配置摘要函数，
+供数据加载、训练和评估模块使用。
+"""
+
 from dataclasses import dataclass
 
 
